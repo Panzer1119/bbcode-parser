@@ -35,5 +35,10 @@
   },
   "dependencies": {
     "tslib": "^1.14.1"
-  }
+  },
+  "keywords": [
+    "BBCode",
+    "Parser"
+  ],
+  "private": false
 }
