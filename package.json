@@ -1,0 +1,19 @@
+{
+  "name": "@panzer1119/bbcode-parser",
+  "version": "0.1.0",
+  "description": "BB code parser written in TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Panzer1119/bbcode-parser.git"
+  },
+  "author": "Paul Hagedorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Panzer1119/bbcode-parser/issues"
+  },
+  "homepage": "https://github.com/Panzer1119/bbcode-parser#readme"
+}
