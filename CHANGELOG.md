@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/Panzer1119/bbcode-parser/compare/v1.0.3...v1.1.0) (2021-09-04)
+
+
+### Features
+
+* add attribute to spoiler to summarize it ([cfaa998](https://github.com/Panzer1119/bbcode-parser/commit/cfaa998af27c899c5b180a8589820c73c58e2127))
+
 ### [1.0.3](https://github.com/Panzer1119/bbcode-parser/compare/v1.0.2...v1.0.3) (2021-09-04)
 
 
