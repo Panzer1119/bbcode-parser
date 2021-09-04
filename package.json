@@ -2,7 +2,9 @@
   "name": "@panzer1119/bbcode-parser",
   "version": "0.1.0",
   "description": "BB code parser written in TypeScript.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*"],
   "scripts": {
     "build": "tsc"
   },
