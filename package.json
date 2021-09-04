@@ -8,6 +8,7 @@
     "lib/**/*"
   ],
   "scripts": {
+    "test": "jest --config jestconfig.json",
     "build": "tsc"
   },
   "repository": {
