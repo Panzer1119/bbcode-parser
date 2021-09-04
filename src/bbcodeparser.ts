@@ -110,8 +110,7 @@ export class BBCodeParser {
         bbTags["td"] = BBTag.createSimpleTag("td");
 
         bbTags["spoiler"] = new BBTag("spoiler", true, false, false, (tag, content, attributes) => {
-            const summary = attributes["spoiler"] ? `<summary>${attributes["spoiler"] || "Spoiler"}</summary>` : "";
-            return `<details>${summary}${content}</details>`;
+            return `<details><summary>${attributes["spoiler"] || "Spoiler"}</summary>${content}</details>`;
         });
 
         bbTags["noparse"] = new BBTag("noparse", true, false, true);
