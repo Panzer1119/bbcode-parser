@@ -109,7 +109,7 @@ export class BBCodeParser {
         bbTags["th"] = BBTag.createSimpleTag("th");
         bbTags["td"] = BBTag.createSimpleTag("td");
 
-        bbTags["spoiler"] = BBTag.createSimpleTag("spoiler");
+        bbTags["spoiler"] = BBTag.createSimpleHTMLTag("spoiler", "details");
 
         bbTags["noparse"] = new BBTag("noparse", true, false, true);
 
